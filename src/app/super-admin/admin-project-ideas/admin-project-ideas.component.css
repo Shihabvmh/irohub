@@ -1,0 +1,29 @@
+.bg{
+    background-color: #F1F1F1;
+    height: 100%;
+}
+.idea-table{
+    padding-top: 40px;
+}
+.table-h{
+padding-top: 10px;
+padding-left: 20px;
+font-weight: 600;
+}
+.table-head{
+    background-color: #FEFEFE;
+    text-align: center;
+}
+.details{
+    font-weight: 550;
+}
+.table-row{
+    text-align: center;
+}
+.btton-processed{
+    background-color: #434343;
+    color: white;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 75%;
+}

@@ -1,0 +1,71 @@
+.bg{
+    background-color: #F1F1F1;
+    height: 100%;
+}
+@media only screen and (max-width: 600px) {
+   .bg {
+    background-color: #F1F1F1;
+    height:auto;
+    }
+  }
+.header{
+    padding-top: 50px;
+}
+.head-batch{
+    color: #000000;
+    font-size: 26xp;
+    font-weight:500;
+  
+    left: 17px;
+    position: relative;
+}
+.head{
+    background-color: #1C2B2D;
+    color: #F1F1F1;
+}
+.add-barnch{
+    position: relative;
+left: 70%;
+
+}
+
+.batch-title{
+    margin-top: 30px;
+}
+.timetable{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #707070;
+}
+.week{
+    margin-left: 20px;
+}
+.time-picker1{
+    margin-left: 20px;
+    
+}
+.time-picker2{
+    margin-left: 130px;
+
+}
+#appt{
+    height: 45px;
+    width: 150px;
+}
+#date-picker{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.nav-link{
+    margin-right: 150px;
+    width: 94%;
+    height: 100px;
+    font-size: 26px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 10px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+}

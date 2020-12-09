@@ -1,0 +1,82 @@
+.placement-head{
+    color: #707070;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+}
+.opening-head{
+    font-size: 20px;
+    color: #000000;
+    padding-top: 40px;
+}
+.opening-box{
+    border-top: 38px solid #4668EE;
+   /* box-shadow: 3px #E3E3E3; */
+   background-color: #E8E7E766;
+   box-shadow: 3px 3px 3px 3px #00000029;
+}
+.opening{
+    position: relative;
+bottom: 30px;
+font-size: 16px;
+color: #ffffff;
+position: relative;
+margin-left: 20px;
+}
+.company-logo{
+    position: relative;
+    bottom: 17px;
+}
+.opening-para{
+   
+    position: relative;
+    bottom: 90px;
+    margin-left: 246px;
+    font-size: 16px;
+    color: #707070;
+}
+
+.buttons{
+        
+        text-align: right;
+        position: relative;
+        bottom: 40px;
+        right: 40px;
+}
+.btn{
+    font-weight: 500;
+}
+
+.add-button{
+margin-left: 93%;
+width: 100px;
+margin-bottom: 10px;    
+}
+.dates{
+    font-size: 16px;
+    color: #000000;
+    position: relative;
+    bottom: 70px;
+text-align: right;
+right: 20px;
+color: white;
+}
+
+.date-picker1{
+    margin-left: 20px;
+    
+}
+.date-picker2{
+    margin-left: 130px;
+
+}
+#date-picker{
+    height: 40px;
+}
+/* @media only screen and (max-width: 370px) {
+    .dates{
+        text-align: right;
+    }
+  } */

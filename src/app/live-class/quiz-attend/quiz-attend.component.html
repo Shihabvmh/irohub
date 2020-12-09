@@ -1,0 +1,70 @@
+<div class="container-fluid">
+   
+        <h2 class="heading"> Quiz</h2>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button> -->
+   
+        <div>
+        <a  routerLink="/quiz"  routerLinkActive="active" href="#"class="back-button">
+            <span>Back</span>
+          
+          </a>
+        </div>
+   <div class="row">
+        <div class="total-number">
+
+
+<h4 class="total-head text-center">
+  Total
+</h4>
+<p class="total-para text-center">25</p>
+</div>
+
+<div class="total-number">
+
+
+  <h4 class="total-head text-center">
+  Skip
+  </h4>
+  <p class="skip-para text-center">{{i}} </p>
+  </div>
+</div>
+
+
+
+
+
+<div class="question-area">
+  <div class="quiz-question">
+    <h3 class="quiz-question-1">1.Github command to deploy comits?</h3>
+    <div class="form-check">
+      
+      <input class="form-check-input" type="radio" name="1" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+       &nbsp; git push      
+      </label><br>
+      <input class="form-check-input option" type="radio" name="2" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        &nbsp;  git push      
+      </label><br>
+      <input class="form-check-input" type="radio" name="3" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        &nbsp;   git push      
+      </label><br>
+      <input class="form-check-input" type="radio" name="4" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        &nbsp;   git push      
+      </label>
+    </div>
+  </div>
+  <div class="skip-button">
+      <button type="button" (click)="plus()" class="btn btn-outline-primary skip-button">Skip</button>
+  
+  </div>
+<div class="submit-button">
+  <button type="button" class="btn btn-outline-primary submit-button">Submit</button>
+</div>
+</div>
+</div>
+

@@ -1,0 +1,111 @@
+.consult-head{
+    color: #707070;
+    font-size:24px;
+    padding-top:3%;
+    margin-left: 2%;
+}
+.consult-para{
+    color: #707070;
+    font-size:16px;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-right: 2%;
+    padding-bottom: 50px;
+}
+/* .inputs input{
+    width: 300px;
+}
+
+input[type=text]{
+    padding:20px;
+    font-size: 13px;
+}
+.inputs{
+    padding-bottom: 20px;
+    margin:10px 150px ;
+} */
+/* .form-group{
+    
+    width: 70%;
+    height: 50px;
+    margin-left: 50px;
+} */
+
+#disabledTextInput{
+    width: 72%;
+    height: 50px;
+    margin-left: 50px;
+    background-color: white;
+}
+.btn-submit{
+    margin-left: 52%;
+    width: 25%;
+    background-color: #5575F2;
+    color: #FFFFFF;
+}
+.total-hour{
+    color: #707070;
+    margin-left: 180px;
+    font-size: 23px;
+}
+.hours{
+    color: #4668EE;
+    font-size: 23px;
+  
+}
+.available-hour{
+    color: #FF0000;
+    margin-left: 165px;
+    font-size: 23px;
+}
+.date-picker-label{
+font-size: 22px;
+    margin-left: 50px;
+    color: #707070;
+  
+}
+
+#date-picker{
+    width: 72%;
+    height: 45px;
+    margin-left: 50px;
+    background-color: aliceblue;
+    border: 3px;
+}
+#formGroupExampleInput2{
+    width: 56%;
+    height: 50px;
+    margin-left: 50px;
+    background-color: aliceblue;
+
+}
+.start-time{
+    margin-left: 50px;
+    font-size: 20px;
+    color: #707070;
+}
+#formGroupExampleInput3{
+    width: 56%;
+    height: 50px;
+    background-color: aliceblue;
+   
+}
+.pad{
+    padding:20px 0px;
+}
+.time{
+    margin-right: 0px;
+}
+.end-time{
+    
+    font-size: 20px;
+    color: #707070;
+}
+.page-bg{
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 100%;
+}
+.available-time{
+    margin-left: 166px;
+}

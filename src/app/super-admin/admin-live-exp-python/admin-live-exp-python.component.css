@@ -1,0 +1,56 @@
+.bg{
+    background-color: #F1F1F1;
+    height: 100%;
+}
+.price-head{
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 30px; 
+}
+.form-control{
+    width: 30%;
+}
+.price-form{
+    padding-left: 30px;
+}
+.price-label{
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-item{
+    width: 1504px;
+    background-color: white;
+    height: 81px;
+    border-radius: 15px;    
+}
+.folder-name{
+    margin-left: 77px;
+    bottom: 44px;
+    position: relative;
+    color: #000000;
+}
+
+.icons{
+    color: #035AA6;
+    font-size: 60px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+  background-color: white;
+}
+.delete-icons{
+    font-size: 56px;
+    margin-left: 97%;
+}
+.add-modules{
+
+    margin-left: 84%;
+}
+
+.eclassroom{
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 30px; 
+}

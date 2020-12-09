@@ -1,0 +1,112 @@
+<div class="container">
+    
+
+
+
+ 
+ <table class="table">
+        <thead>
+          <tr>
+          
+            <th scope="col" class="head">Date</th>
+            <th scope="col" class="head">Time From</th>
+            <th scope="col" class="head">Time To</th>
+            <th scope="col" class="head">Faculty</th>
+            <th scope="col" class="head">Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+          
+                <td>17/2/2021</td>
+            <td>10.00am</td>
+            <td>12:00pm</td>
+            <td>shihab</td>
+
+            <td><!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop"  data-backdrop="false">
+                        Reschedule
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="staticBackdropLabel">Reschedule class</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                            <form [formGroup]="reschedule">
+                           
+                                    <div class="date-picker1">
+                                            <label class="date-picker-label tag" formControlName="date">Start Date:- </label>
+                                        
+                                  
+                                            <input type="date" id="date-picker" class="field"> 
+                                             <button type="button" class="btn change">Change</button>
+                          
+                                          </div>
+                                          <div class="time-picker2">
+                                                <label class="time-picker-label tag">Start Time:-</label>
+                                   
+                            
+                                                <input type="time" id="appt" name="appt" formControlName="endTime" class="field">
+                                                <button type="button" class="btn change">Change</button>
+                                              </div>
+                                              <div class="time-picker2">
+                                                    <label class="time-picker-label tag">End Time:-</label>
+                                                   
+                                
+                                                    <input type="time" id="appt" name="appt" formControlName="endTime" class="field">
+                                                    <button type="button" class="btn change">Change</button>
+                                                  </div>
+                                          <div class="form-group">
+                                             
+                                                <label class="tag">Faculty:- </label>
+                                                <select class="form-control faculty-select" id="exampleFormControlSelect1" formControlName="faculty">
+                                                  <option>..select..</option>
+                                                  <option>shihab</option>
+                                                  <option>Mohafiz</option>
+                                                  <option>sdlkmdflk</option>
+                              
+                                                </select>
+                                       
+                                      <button type="button" class="btn change">Change</button>
+                                  </div>
+                                  
+                                </form>
+                      </div>
+                      <div class="modal-footer">
+                     
+                        <button type="button" class="btn btn-outline-primary">Inform Students</button>
+                      </div>
+                    </div>
+                  </div>
+                </div></td>
+              
+            
+          </tr>
+          <tr>
+          
+              
+                <td>17/2/2021</td>
+            <td>10.00am</td>
+            <td>12:00pm</td>
+            <td>shihab</td>
+
+            <td><!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop" data-backdrop="false">
+                 Reschedule
+                </button>
+                
+                <!-- Modal -->
+            
+            </td>
+              </tr>
+        </tbody>
+      </table>
+</div>

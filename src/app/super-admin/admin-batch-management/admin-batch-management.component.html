@@ -1,0 +1,231 @@
+<div class="bg">
+  <div class="container-fluid">
+    <div class="row header">
+      <h1 class="head-batch">Batch Management</h1>
+      <!-- Button trigger modal -->
+      <div class="add-barnch">
+
+        <button type="button" class="btn btn-outline-primary add-barnch" data-toggle="modal" data-target="#exampleModal">
+          + Add Batch
+        </button>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="exampleModalLabel">Add Batch</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <!-- <div class="modal-body"> -->
+            <div class="modal-body">
+
+              <form [formGroup]="addBatch">
+
+                <div class="form-group">
+                  <label>Batch Name</label>
+                  <input type="text" class="form-control" formControlName="batchName">
+                </div>
+                <div class="date-picker1">
+                  <label class="date-picker-label" formControlName="date">Start Date</label>
+                  <br>
+
+                  <input type="date" id="date-picker">
+
+                </div>
+
+                <div class="form-group">
+                  <label>Estimate Number of Week</label>
+                  <input type="text" class="form-control" formControlName="numberOfWeek">
+                </div>
+                <div class="form-group">
+                  <label>Course</label>
+                  <select class="form-control" id="exampleFormControlSelect1" formControlName="Course">
+                    <option>Select Course</option>
+                    <option>Java</option>
+                    <option>IOS</option>
+                    <option>Android</option>
+                    <option>Python</option>
+                    <option>Php</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Catagory</label>
+                  <select class="form-control" id="exampleFormControlSelect1" formControlName="category">
+                    <option>Select Type</option>
+                    <option>Beginer</option>
+                    <option>Intermediate</option>
+                    <option>Expert</option>
+
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Faculty</label>
+                  <select class="form-control" id="exampleFormControlSelect1" formControlName="faculty">
+                    <option>..select..</option>
+                    <option>shihab</option>
+                    <option>Mohafiz</option>
+                    <option>sdlkmdflk</option>
+
+                  </select>
+                </div>
+
+                <h2 class="timetable">Create Timetale</h2>
+
+                <div class="form-group">
+
+                  <h3>Choose Week Days</h3>
+                </div>
+                <div class="row">
+                  <div class="time-picker1">
+                    <label class="time-picker-label">Start Time</label>
+                    <br>
+
+                    <input type="time" id="appt" name="appt" formControlName="startTime">
+
+                  </div>
+                  <div class="time-picker2">
+                    <label class="time-picker-label">End Time</label>
+                    <br>
+
+                    <input type="time" id="appt" name="appt" formControlName="endTime">
+
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+
+            <div class="modal-footer">
+
+              <button type="button" class="btn btn-primary">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+   
+
+
+<div class="container">
+
+    <div class="row">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link" id="batch1-tab" data-toggle="pill" href="#batch1" role="tab" aria-controls="batch1" aria-selected="true">
+            <h1 class="batch-title">BATCH 1</h1>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="batch2-tab" data-toggle="pill" href="#batch2" role="tab" aria-controls="batch2" aria-selected="false">
+            <h1 class="batch-title">BATCH 2</h1>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="batch3" aria-selected="false">
+            <h1 class="batch-title">BATCH 3</h1>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="batch4" aria-selected="false">
+            <h1 class="batch-title">BATCH 4</h1>
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        
+          <div class="tab-pane fade show active" id="batch1" role="tabpanel" aria-labelledby="batch1-tab">
+
+
+              <table class="table">
+                  <thead>
+                    <tr>
+                    
+                      <th scope="col" class="head">Course Type</th>
+                      <th scope="col" class="head">Course</th>
+                      <th scope="col" class="head">Category</th>
+                      
+                      <th scope="col" class="head">Start Date</th>
+                      <th scope="col" class="head">End Date</th>
+                      <th scope="col" class="head">Status</th>
+                      <th scope="col" class="head">View Timetale</th>
+                      <th scope="col" class="head">Action</th>
+                    </tr>
+                  </thead>
+      
+                  <tbody>
+                    <tr>
+                    
+  
+                      <td>Live</td>
+                      <td>Python</td>
+                      <td>Beginner</td>
+                      <td>17/2/2021</td>
+                      <td>17/2/2021</td>
+                      <td>Active</td>
+                      <td>
+                        <a href="#" class="time-tabel" routerLink="/time-table" routerLinkActive="active">
+                          View 
+                        </a>
+                        
+                      </td>
+                      <td>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                  
+                          </div>
+                  
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                    
+                        
+                          <td>Live</td>
+                          <td>Python</td>
+                          <td>Beginner</td>
+                          <td>17/2/2021</td>
+                          <td>17/2/2021</td>
+                          <td>Active</td>
+                          <td> <a href="#" class="time-tabel" routerLink="/time-table" routerLinkActive="active">
+                              View 
+                            </a></td>
+                          <td> <div class="btn-group">
+                            <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Edit</a>
+                              <a class="dropdown-item" href="#">Delete</a>
+                    
+                            </div>
+                    
+                          </div></td>
+                        </tr>
+                  </tbody>
+                </table>
+                <div class="tab-pane fade" id="batch2" role="tabpanel" aria-labelledby="batch2-tab">
+                  ..</div>
+          </div>
+
+    </div>
+
+
+
+
+</div>
+
+
+  </div>
+</div>
+

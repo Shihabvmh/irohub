@@ -1,0 +1,213 @@
+<!-- <div class="bg"> -->
+        <div class="container-fluid">
+
+
+                <h1 class="price-head">
+                  Price Allocation
+                </h1>
+                <div class="price-form">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label class="price-label">Actual Price</label>
+                          <input type="text" class="form-control">
+              
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label class="price-label">Offer price</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    
+                  </form>
+                </div>
+              </div>
+              
+              <hr>
+              <div class="container-fluid">
+                <!-- Button trigger modal -->
+              
+              
+              
+                <button type="button" class="btn btn-outline-primary add-modules" data-toggle="modal" data-target="#exampleModal" data-backdrop="false">
+                  + Add Modules
+                </button>
+              
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel">Add Module</h1>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+              
+                        <form [formGroup]="addModule">
+                          <div class="form-group">
+                            <label>Module Name</label>
+                            <input type="text" class="form-control" formControlName="moduleName">
+                          </div>
+                          <div class="form-">
+                            <label>Module File</label>
+                            <input type="file" class="form-control" formControlName="moduleFile">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+              
+                        <button type="button" class="btn btn-primary">Add</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              
+                <h1 class="eclassroom">E Classroom</h1>
+                <div class="modules">
+              
+              
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+              
+                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">
+                        <mat-icon class="icons">topic</mat-icon>
+                        <h2 class="folder-name">Module 1</h2>
+                      </a>
+              
+                    </li>
+              
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              
+              
+                      <table class="table table-sm">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Topic</th>
+                            <th scope="col">Files</th>
+                            <th scope="col">View</th>
+                            <th scope="col">Action</th>
+                          </tr>
+              
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              
+                              </div>
+                            </th>
+                            <td>
+                              <p>Topic 1</p>
+                              <small>we will learn</small>
+                            </td>
+                            <td>5</td>
+                            <td>
+                              <a href="#" routerLink="/live-andrid-view-module" routerLinkActive="active">
+                                view details
+                              </a>
+                            </td>
+                            <td>
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                  aria-expanded="false">
+              
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Add</a>
+                                  <a class="dropdown-item" href="#">Delete</a>
+              
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              
+                              </div>
+                            </th>
+                            <td>
+                              <p>Topic 1</p>
+                              <small>we will learn</small>
+                            </td>
+                            <td>5</td>
+                            <td>
+                              <a href="#">
+                                view details
+                              </a>
+                            </td>
+                            <td>
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                  aria-expanded="false">
+              
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Add</a>
+                                  <a class="dropdown-item" href="#">Delete</a>
+              
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+              
+                          <tr>
+                            <th>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              
+                              </div>
+                            </th>
+                            <td>
+                              <p>Topic 1</p>
+                              <small>we will learn</small>
+                            </td>
+                            <td>5</td>
+                            <td>
+                              <a href="#">
+                                view details
+                              </a>
+                            </td>
+                            <td>
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                  aria-expanded="false">
+              
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Add</a>
+                                  <a class="dropdown-item" href="#">Delete</a>
+              
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+              
+              
+              
+                    </div>
+                  </div>
+              
+                  <a href="#">
+                    <mat-icon class="delete-icons">delete</mat-icon>
+                  </a>
+              
+                </div>
+              </div>
+              <!-- </div>      -->

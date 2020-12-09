@@ -1,0 +1,90 @@
+.bg{
+    background-color: #F8F8F8;
+    width: 100%;
+}
+.grey-text{
+    color: #707070;
+}
+.content{
+    padding: 30px 20px;
+}
+
+.profile-heading{
+   
+    font-size: 18px;
+}
+
+hr{
+    color:#707070 ;
+    size: 1px solid;
+}
+
+.profile-edit{
+    height: fit-content ;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.profile-edit-content{
+    padding: 30px 30px;
+}
+.basic-heading{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.profile-img{
+    height: 100px;
+    width: 100px;
+}
+
+.profile-pic-div{
+   text-align: center;
+    
+}
+
+.delete-icon{
+    color: #4668EE;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+fieldset{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.disabled{
+    width: 80%;
+}
+
+.gap-row{
+    padding: 20px 30px;
+}
+
+.label{
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn-div{
+    text-align: center;
+}
+
+.btn-change{
+    background-color: #4668EE;
+    color: #ffffff;
+    font-size: 14px;
+    width: 45%;
+}
+.reset-div{
+    text-align: center;
+}
+
+.reset-password{
+    text-decoration: none;
+    text-align: center;
+}

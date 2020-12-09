@@ -1,0 +1,104 @@
+<mat-toolbar class="header">
+    <!-- <img class="admin-img" src="../../../assets/image/User image.png">
+        <p class="admin-head">Admin Pannel</p> -->
+
+    <a mat-raised-button (click)="opened=!opened" class="menu-btn">
+        <mat-icon class="menu-icon">dehazer</mat-icon>
+    </a>
+
+    <a href="#">
+        <mat-icon class="bell-icon">notifications</mat-icon>
+    </a>
+    <div class="popover-profile">
+        <!-- <a class="popover-profile"  [popoverOnHover]="false" [popover]="profilePopover" > -->
+        <img class="user-img" src="../../../assets/image/User image.png">
+        <!-- </a> -->
+    </div>
+    <button type="button" class="btn logout">logout</button>
+
+    <!-- <popover-content #profilePopover
+                     placement="bottom"
+                     [animation]= "true"
+                     [closeOnClickOutside]="true"
+                     [closeOnMouseOutside]="false">
+    <mat-nav-list >
+        <a class="popover-menu" mat-list-item routerLink="/video-profile" >
+            <img class="popover-profile-img" src="../../../assets//image/User image.png"> Profile
+        </a>
+        <a class="popover-menu" mat-list-item>
+            <mat-icon class="signout-icon">power_settings_new</mat-icon> Sign Out
+        </a>
+
+    </mat-nav-list>
+
+    </popover-content> -->
+
+</mat-toolbar>
+
+<mat-sidenav-container>
+      
+    <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+            <hr>
+        <mat-nav-list>
+
+            <a class="menu-list-name" mat-list-item routerLink="/admin-dashboard" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">dashboard</mat-icon>Dashboard
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/admin-courses" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">school</mat-icon>Course
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">groups</mat-icon>Students
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">person</mat-icon>Instructers
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">local_library</mat-icon>Scholorship
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/admin-batch-magement" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">class</mat-icon>Batch Management
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">payment</mat-icon>Accounts
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/admin-graduation" routerLinkActive="active" (click)="sidenav.close()">
+                <img src="../../../assets/image/graduated@2x.png" class="icon-img">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ceremony
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">event</mat-icon>Events
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/admin-placement" routerLinkActive="active" (click)="sidenav.close()">
+                <img class="icon-img" src="../../../assets/image/placement.png">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Placement Desk
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">home</mat-icon>Design
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/admin-project-ideas" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">new_releases</mat-icon>Project Ideas
+
+            </a>
+            <a class="menu-list-name" mat-list-item routerLink="/" routerLinkActive="active" (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons dashboard-icon">perm_media</mat-icon>Report
+
+            </a>
+           
+            
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content> 
+        
+            <ng-content></ng-content>
+       </mat-sidenav-content>
+</mat-sidenav-container>

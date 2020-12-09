@@ -1,0 +1,23 @@
+.head{
+    background-color: #1C2B2D;
+    color: #F1F1F1;
+}
+.field{
+    width: 50%;
+    height: 50px;
+    margin-top: 40px;
+}
+.tag{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.faculty-select{
+    width: 50%;
+    height: 50px;
+}
+.change{
+    background-color: #1C2B2D;
+    color: white;
+    margin-left: 15px;
+    height: 50px;
+}

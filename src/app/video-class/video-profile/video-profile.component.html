@@ -1,0 +1,124 @@
+<div class="bg">
+    <div class="content">
+        <h3 class="profile-heading grey-text">Profile</h3>
+        <hr>
+        <div class="profile-edit">
+            <div class="profile-edit-content">
+                <h3 class="basic-heading grey-text">Basic Information</h3>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="profile-pic-div">
+                            <img class="profile-img" src="../../../assets/image/User image.png">
+                            <mat-icon class="delete-icon">delete</mat-icon>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <fieldset disabled>
+                            <div class="form-group disabled">
+                                <input type="text" class="form-control" placeholder="John">
+                            </div>
+                            <div class="form-group disabled">
+                                <input type="text" class="form-control" placeholder="Wick">
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="row gap-row">
+                    <div class="col-sm-2">
+                        <p class="grey-text label">Email :</p>
+                    </div>
+
+                    <div class="col-sm-7">
+                        <div class="form-group ">
+                            <input type="email" class="form-control" placeholder="johnwick@gmail.com">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 btn-div">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-change" data-toggle="modal" data-target="#exampleModal3">Change</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModal3Label">Change Email</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- <div class="form-group">
+                            <label for="formGroupExampleInput">Email</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="abcd@gmail.com">
+                          </div> -->
+                                        <div class="form-group row">
+                                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row gap-row">
+                    <div class="col-sm-2">
+                        <p class="grey-text label">Phone Number :</p>
+                    </div>
+
+                    <div class="col-sm-7">
+                        <div class="form-group ">
+                            <input type="text" class="form-control" placeholder="+91 9999999999">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 btn-div">
+                        <button type="button" class="btn btn-primary btn-change" data-toggle="modal" data-target="#exampleModal4">Change</button>
+
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModal3Label">Change Phone Number</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="form-group row">
+                                                <label for="inputEmail3" class="col-sm-2 col-form-label">New number</label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" class="form-control" id="inputEmail3" placeholder="phone number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+    
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="reset-div">
+                    <a routerLink="/video-resetpassword" class="reset-password" href="#">Reset Password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,107 @@
+<div class="bg">
+    <div class="container idea-table">
+        <div class="row">
+            <h1 class="table-h">Project Ideas</h1>
+            <button type="button" class="btn btton-processed">Processed</button>
+
+            <!-- <button type="button" class="btn btn-outline-primary filter-btn">
+                <mat-icon>filter_alt</mat-icon>
+                Filter
+            </button> -->
+        </div>
+        <table class="table">
+            <thead class="table-head">
+                <tr>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Contact Number</th>
+                    <th scope="col">Desingnation</th>
+                    <th scope="col">View details</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-row">
+
+
+                    <td>Jhon</td>
+                    <td>Doe</td>
+                    <td>abu@gmail.com</td>
+                    <td>8795954554</td>
+                    <td>Student</td>
+
+                   
+                    <td>
+                        <button type="button" class="btn details" data-toggle="modal" data-target="#exampleModal">
+                            view details
+                        </button>
+
+
+                        <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Jhon</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+
+                                    </div>
+                                    <hr>
+                                    <div class="modal-body">
+                                        <div class="form-group">
+
+                                            <label for="formGroupExampleInput">About Project</label>
+
+                                            <textarea id="w3review" name="w3review" rows="4" cols="50">
+                    </textarea>
+                                            <!-- <input type="text-area" class="form-control" id="formGroupExampleInput"> -->
+                                            <hr>
+                                            <button type="button" class="btn btn-secondary">Download</button>
+                                            <button type="button" class="btn btn-secondary">view file </button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+                    </td>
+                    <td>
+                            <a  routerLink="/admin-proced" routerLinkActive="active"href="#">
+                                Process
+                
+                            </a>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td>Jhon</td>
+                    <td>Doe</td>
+                    <td>jone@gmail.com</td>
+                    <td>989513315</td>
+                    <td>Graduate</td>
+                    <td>
+                        <button type="button" class="btn details" data-toggle="modal" data-target="#exampleModal">
+                            view details
+                        </button>
+                    </td>
+                    <td><a  routerLink="/admin-proced" routerLinkActive="active"href="#">
+                        Process
+        
+                    </a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>

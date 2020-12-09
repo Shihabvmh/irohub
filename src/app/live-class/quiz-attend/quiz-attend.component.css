@@ -1,0 +1,91 @@
+.container-fluid{
+    background-color: #F8F8F8;
+    opacity: 80%;
+}
+.heading{
+    font-size: 30px;
+    color: #707070;
+    padding: 40px;
+    /* margin-bottom: -8%; */
+
+}
+
+a {
+    padding: 10px 33px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #5A565A;
+    text-decoration: none;
+    position: relative;
+    margin-left: -92px;
+}
+
+
+.back-button{
+    position: relative;
+    left: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px 3px #00000029;
+    bottom: 80px;
+}
+.total-number{
+    border: 1px solid #4668EE;
+    width: 150px;
+    height: 90px;
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.total-head{
+    font-size: 24px;
+    color: #4668EE;
+    padding-top: 20px;
+}
+
+.total-para{
+    font-size: 24px;
+    color:#707070;
+
+}
+
+
+
+.total-para{
+    font-size: 24px;
+    color:#707070;
+
+}
+.skip-para{
+    font-size: 22px;
+    color:#707070;
+}
+.question-area{
+    background-color: #FFFFFF;
+}
+.quiz-question{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 28px;
+}
+
+.quiz-question-1{
+    font-size: 30px;
+}
+.skip-button{
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 88px;;
+}
+.submit-button{
+    margin-left: 60%;
+    position: relative;
+    bottom: 19px;
+}
+.option{
+    padding: 10px 0px;
+}
+.form-check-input {
+    position: relative;
+    margin-top: 2.3rem;
+    margin-left: -1.25rem;
+}

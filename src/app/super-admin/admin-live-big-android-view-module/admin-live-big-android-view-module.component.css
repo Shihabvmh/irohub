@@ -1,0 +1,19 @@
+.table{
+     width: 80%;
+     margin-left: 10%;
+     margin-top: 5%;
+ 
+}
+
+thead{
+    text-align: center;
+    background-color: #1C2B2D;
+    color: white;
+}
+
+tr{
+    text-align: center;
+}
+.add-files{
+    float: right;
+}

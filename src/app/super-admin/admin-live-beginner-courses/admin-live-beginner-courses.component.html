@@ -1,0 +1,120 @@
+<div class="container">
+    <div class="row">
+        <h1 class="catogery-head">Courses</h1>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-primary add" data-toggle="modal" data-target="#exampleModal" data-backdrop="false">
+            + Add
+        </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Add Course</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                  
+
+                        <form [formGroup]="addCourse">
+                                <div class="form-group">
+                                  <label>Course Name</label>
+                                  <input type="text" class="form-control" formControlName="title">
+                                </div>
+                                
+                                <div class="form-group">
+                                        <label>Course Icon</label>
+                                        <input type="file"  formControlName="logo">
+                                      </div>
+</form>      
+
+                </div>
+                <div class="modal-footer">
+              
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-inline-flex">
+        <a style="text-decoration: none" href="#" routerLink="/admin-live-android" routerLinkActive="active">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <img class="icons" src="../../../assets/image/android.png">
+                        </div>
+                        <div class="col">
+                            <h2 class="course-name">Android</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a style="text-decoration: none" href="#" routerLink="/admin-live-big-ios" routerLinkActive="active">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <img class="icons" src="../../../assets/image/apple.png">
+                        </div>
+                        <div class="col">
+                            <h2 class="course-name">Ios</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a style="text-decoration: none" href="#" routerLink="/admin-live-big-php" routerLinkActive="active">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <img class="icons" src="../../../assets/image/php.png">
+                        </div>
+                        <div class="col">
+                            <h2 class="course-name">Php</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+    </div>
+
+    <div class="d-inline-flex">
+        <a style="text-decoration: none" href="#" routerLink="/admin-live-big-python" routerLinkActive="active">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <img class="icons" src="../../../assets/image/python.png">
+                        </div>
+                        <div class="col">
+                            <h2 class="course-name"> Python</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a style="text-decoration: none" href="#" routerLink="/admin-live-big-java" routerLinkActive="active">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <img class="icons" src="../../../assets/image/java.png">
+                        </div>
+                        <div class="col">
+                            <h2 class="course-name"> Java</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>

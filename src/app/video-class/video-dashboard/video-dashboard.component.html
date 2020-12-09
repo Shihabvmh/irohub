@@ -1,0 +1,93 @@
+<div class="container-fluid">
+        <h2 class="dashboard-head">Dashboard</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="shadow-sm p-3 mb-5 bg-white rounded latest-border">
+    <div class="latest-head">
+        <h3>
+         <mat-icon>notifications</mat-icon>
+            Latest Announcements
+        </h3>
+        <p>Date</p>
+        <hr>
+        <p>No Message</p>
+    </div>
+    
+                </div>
+    
+    
+    
+                <div class="shadow-sm p-3 mb-5 bg-white rounded upcoming-border">
+                    <div class="upcoming-head">
+                        <h3>
+                         <mat-icon>notifications</mat-icon>
+                            Upcoming Events
+                        </h3>
+                        <p>Date</p>
+                        <hr>
+                        <p>No Message</p>
+                    </div>
+                    
+                                </div>
+    
+    
+    
+    
+                                <div class="shadow-sm p-3 mb-5 bg-white rounded live-border">
+                                    <div class="live-head">
+                                        <h3>
+                                         <mat-icon>calendar_today</mat-icon>
+                                            Live classes now
+                                        </h3>
+                                       <div>
+                                           {{myDate | date}}
+                                       </div>
+                                       <button type="button" class="btn live-button">Attend</button>
+                                        <hr>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
+    
+                                       
+                                    </div>
+                                    
+                                                </div>
+    
+    
+            </div>
+    
+    
+    
+    
+    <div class="col-md-6">
+        <!-- <button type="button" class="btn assignment-button">Assignment</button> -->
+    
+    
+        <a  routerLink="/video-assignment"  routerLinkActive="active" href="#" class="assignment-button">
+            <span>Assignment</span>
+            <span class="button-badge">2</span>
+          </a>
+      
+    
+          <a  routerLink="/video-quiz"  routerLinkActive="active" href="#"class="quiz-button">
+            <span>Quiz</span>
+            <span class="button-badge">2</span>
+          </a>
+          
+    
+        <div >
+                <img class="classroom-image" src="../../../assets/image/notificartion.jpg">
+            </div>
+        </div>
+        
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    

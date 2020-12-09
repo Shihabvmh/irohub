@@ -1,0 +1,104 @@
+.bg{
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+.content{
+    padding: 30px 20px;
+}
+
+.course-heading{
+    color: #707070;
+    font-size: 18px;
+}
+
+hr{
+    color:#707070 ;
+    size: 1px solid;
+}
+
+.course-section{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.course-img{
+    height: 234px;
+    width: inherit;
+
+}
+
+.course-description-heading{
+    color: #707070;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.course-description-para{
+    font-size: 14px;
+    color:#707070 ;
+    padding-right: 10px;
+}
+
+ngb-rating{
+    color: #FECB51;
+    font-size: 20px;
+
+}
+
+.rating-num{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.join-date{
+    font-size: 14px;
+    color:#707070;
+    padding-left: 30px;
+}
+
+.level{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.upgrade-btn{
+    background-color: #28BB54;
+    border-color: #28BB54;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 25px auto;
+    border-radius: 8px;
+}
+
+.view-details{
+    color: #707070;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+  
+}
+
+.choose-button{
+    background-color: #4668EE;
+    border-radius: 8px;
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+    
+}
+
+.center{
+text-align: center;
+}
+
+.price{
+    color:#4668EE ;
+}

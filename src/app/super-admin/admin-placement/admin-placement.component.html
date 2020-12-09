@@ -1,0 +1,103 @@
+<div class="container-fluid">
+    <div>
+        <h3 class="placement-head">Placement Desk</h3>
+
+
+        <button type="button" class="btn btn-outline-primary add-button" data-toggle="modal" data-target="#exampleModal">
+            + Add
+        </button>
+    </div>
+   
+
+
+
+
+
+    <div class="opening-box">
+        <h3 class="opening">| kochi</h3>
+        <div class="dates">
+            <span class="date">
+                Date : 12/2/2020
+            </span>
+            <span>
+                Due Date : 12/2/2020
+            </span>
+        </div>
+
+        <img class="company-logo" src="../../../assets/image/google.png" alt="">
+        <p class="opening-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+        <div class="buttons">
+            <button type="button" class="btn">View Details</button>
+            <button type="button" class="btn">Delete</button>
+            <button type="button" class="btn">Edit</button>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Add Placement</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form [formGroup]="addPlacements"  (ngSubmit)="onSubmit()">
+                           
+                        <div class="form-group">
+                            <label>Company Name</label>
+                            <input type="text" class="form-control" formControlName="companyName">
+                        </div>
+                        <div class="form-group">
+                            <label>company-logo</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1"  formControlName="companyLogo">
+                        </div>
+                        <div class="form-group">
+                            <label>Job-role</label>
+                            <input type="text" class="form-control" formControlName="jobRole">
+                        </div>
+                        <div class="form-group">
+                            <label>Location</label>
+                            <input type="text" class="form-control" formControlName="location">
+                        </div>
+                        <div class="form-group">
+                            <label>Description</label>
+                            <br>
+                            <textarea name="w3review" rows="4" cols="54" formControlName="description">
+                                            </textarea>
+                        </div>
+                        <div class="row">
+                            <div class="date-picker1">
+                                <label class="date-picker-label" formControlName="date">Date</label>
+                                <br>
+
+                                <input type="date" id="date-picker">
+
+                            </div>
+                            <div class="date-picker2">
+                                <label class="date-picker-label" formControlName="dueDate">Due Date</label>
+                                <br>
+
+                                <input type="date" id="date-picker">
+
+                            </div>
+                        </div>
+                      
+                    </form>
+                </div>
+                <div class="modal-footer">
+                        <!-- <p>
+                                <button (click)="updateProfile()">Update Profile</button>
+                              </p> -->
+                              <button type="submit" [disabled]="!addPlacements.valid">Submit</button>
+                    <button type="button" class="btn btn-primary" >Save</button>
+                </div>
+            </div>
+        </div>
+    </div>

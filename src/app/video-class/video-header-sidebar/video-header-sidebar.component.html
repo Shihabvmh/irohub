@@ -1,0 +1,91 @@
+<mat-toolbar class="header">
+    <a mat-raised-button (click)="opened=!opened" class="menu-btn">
+        <mat-icon class="menu-icon">dehazer</mat-icon>
+    </a>
+   
+    <a href="#">
+        <mat-icon class="bell-icon">notifications</mat-icon>
+    </a>
+
+    <a class="popover-profile"  [popoverOnHover]="false" [popover]="profilePopover" ><img class="user-img" src="../../../assets/image/User image.png"></a>
+    
+
+    <popover-content #profilePopover
+                     placement="bottom"
+                     [animation]= "true"
+                     [closeOnClickOutside]="true"
+                     [closeOnMouseOutside]="false">
+    <mat-nav-list >
+        <a class="popover-menu" mat-list-item routerLink="/video-profile" >
+            <img class="popover-profile-img" src="../../../assets//image/User image.png"> Profile
+        </a>
+        <a class="popover-menu" mat-list-item>
+            <mat-icon class="signout-icon">power_settings_new</mat-icon> Sign Out
+        </a>
+
+    </mat-nav-list>
+
+    </popover-content>
+
+</mat-toolbar>
+
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="over" [(opened)]="opened">
+
+        <mat-nav-list>
+            <div class="borders">
+            <a class="menu-list-name" mat-list-item routerLink="/video-dashboard" routerLinkActive="active">
+                <mat-icon class="menu-list-icons dashboard-icon">home</mat-icon> Dashboard
+            </a>
+            </div>
+            <div class="borders">
+
+            <a class="menu-list-name" mat-list-item routerLink="/video-course" routerLinkActive="active"
+                (click)="sidenav.close()">
+                <mat-icon class="menu-list-icons course-icon">school</mat-icon>  Course
+           
+            </a>
+        </div>
+        <div class="borders">
+
+            <a class="menu-list-name" mat-list-item routerLink="/video-placement" routerLinkActive="active">
+
+                <img class="menu-img-icon" src="../../../assets/image/placement.png"> Placement Desk
+            </a>
+
+</div>
+<div class="borders">
+
+
+            <a class="menu-list-name" mat-list-item routerLink="/video-graduation" routerLinkActive="active">
+                <img class="menu-img-icon" src="../../../assets/image/graduated@2x.png"> Graduation Ceremony
+            </a>
+</div>
+<div class="borders">
+
+            <a class="menu-list-name" mat-list-item routerLink="/video-pack" routerLinkActive="active"
+            (click)="sidenav.close()">
+            <img class="menu-img-icon" src="../../../assets/image/pack upgrade.png"> Pack Upgrade
+        </a>
+        </div>
+        <div class="borders">
+
+        <a class="menu-list-name" mat-list-item routerLink="/video-consult" routerLinkActive="active" >
+                <img class="menu-img-icon" src="../../../assets/image/consult.png">Consult Faculty
+
+    
+        </a>
+</div>
+           
+           
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content> 
+        
+         <ng-content></ng-content>
+    </mat-sidenav-content>
+    
+
+</mat-sidenav-container>
+

@@ -1,0 +1,171 @@
+
+
+.first{
+    padding: 0px;
+}
+.banner-blue{
+    background:url(..\..\assets\image\4.png) 30% 2%;
+    height: 200px;
+    width: auto;
+}
+
+.blue{
+    background-color: #4668EE ;
+    height: 200px;
+    width: auto;
+    opacity: 86%;
+}
+.banner-blue-heading{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 80px;
+    color: #ECECEC;
+    font-weight: 400;
+}
+.banner-blu-heading-sub{
+    font-size:16px;
+    text-align: center;
+    /* padding-top: 80px; */
+    color: #ECECEC;
+    font-weight: 200;
+}
+
+/* .img{
+    background-color: #4668EE ;
+    width: 1550px;  
+}
+.text{
+    position: relative;
+    margin-left: 50%;
+    margin-top: -131px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.text2{
+    position: relative;
+    margin-left: 48%;
+    color: aliceblue;
+    font-weight: 100;
+} */
+/* .img1{
+    width: 25%;
+    position: relative;
+    margin-left: 117px;
+    
+} */
+/* .img2{
+    margin-top: 200px;
+    margin-left: 136px;
+    z-index: 3;
+}
+.img3{
+    margin-top: -150px;
+    margin-left: 350px;
+    z-index: 3;
+}
+.img1{
+    position: relative;
+    margin-top: -631px;
+    margin-left: 66px;
+} */
+.about-image{
+   
+    position: relative;
+    margin-top: -143%;
+}
+.about-image2{
+    position: absolute;
+
+    margin-top: -63%;
+
+    margin-left: -15%;
+}
+/* .about-image3{
+    
+} */
+.image-teaching1{
+    width: 100%;
+position: relative;
+margin-top: 10%;
+}
+
+.faculty-head{
+    text-align: center;
+    padding: 40PX;
+    font-size: 44px;
+    
+    font-weight: 800;
+    
+    
+    }
+.faculty-image{
+    position: relative;
+    left: 14px;
+}
+.faculty-text{
+    position: relative;
+    /* text-align: center; */
+    top: 3px;
+    left: 143px;
+}
+.text8{
+    position: relative;
+    color: dimgray;
+    
+}
+
+.text3{
+    margin-top: 181px;
+    margin-left: 128px;
+    font-weight: bold;
+
+}
+.text9{
+    color:#6A6A6A;
+    font-size: 13px;
+    font-weight: 400;
+  
+    margin-left: 74px;
+    line-height: 1;
+
+
+}
+
+.text10{
+    position: relative;
+    color: dimgray;
+    left: 143px;
+}
+/* 
+.text7{
+    position: relative;
+    margin-left: 125px;
+}
+.text8{
+    position: relative;
+    color: dimgray;
+}
+.text9{
+    position: relative;
+    color: dimgray;
+    margin-left: 50px;
+}
+.image6{
+    width: 75%;
+    margin-left: 170px;
+    margin-bottom: -3px;
+    margin-top: 70px;
+
+}
+.row1{
+    text-align: center;
+    padding: 40PX;
+    
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-left: 118px;
+    } */

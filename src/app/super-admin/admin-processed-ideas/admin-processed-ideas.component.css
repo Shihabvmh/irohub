@@ -1,0 +1,25 @@
+.bg{
+    background-color: #F1F1F1;
+    height: 100%;
+}
+.table-h{
+padding-top: 10px;
+}
+.table-head{
+    background-color: #FEFEFE;
+    text-align: center;
+}
+.details{
+    font-weight: 550;
+}
+.table-row{
+    text-align: center;
+}
+.filter-btn{
+    margin-left: 90%;
+
+}
+.mail-icon{
+    position: relative;
+    top: 5px;
+}

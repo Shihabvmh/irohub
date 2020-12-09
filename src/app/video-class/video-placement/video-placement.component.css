@@ -1,0 +1,151 @@
+.placement-head{
+    color: #707070;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px;
+}
+.eligibility-rectangle{
+    background-color: #4668EE;
+    border: 1px solid #4668EE;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.eligibility-head{
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    margin-left: 2%;
+    margin-top:2%;
+}
+.arrow{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.eligibility-para{
+    color: #ffffff;
+    position: relative;
+    margin-left: 90px;
+    bottom: 40px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.arrow1{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 35px;
+    position: relative;
+    bottom: 27px;
+   
+}
+.eligibility-para1{
+    color: #ffffff;
+    position: relative;
+    margin-left: 90px;
+    bottom: 68px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.arrow2{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 35px;
+    position: relative;
+    bottom: 60px;
+   
+}
+.eligibility-para2{
+    color: #ffffff;
+    position: relative;
+    margin-left: 90px;
+    bottom: 99px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.opening-head{
+    font-size: 20px;
+    color: #000000;
+    padding-top: 40px;
+}
+.opening-box{
+    border-top: 38px solid #4668EE;
+   /* box-shadow: 3px #E3E3E3; */
+   box-shadow: 3px 3px 3px 3px #00000029;
+}
+.opening{
+    position: relative;
+bottom: 30px;
+font-size: 16px;
+color: #ffffff;
+position: relative;
+margin-left: 20px;
+}
+.company-logo{
+    position: relative;
+    bottom: 7px;
+}
+.opening-para{
+   
+    position: relative;
+    bottom: 90px;
+    margin-left: 246px;
+    font-size: 16px;
+    color: #707070;
+}
+.apply-btn{
+background-color: #FFD64E;
+color: #4668EE;
+width: 128px;
+margin-left: 40%;
+padding: 10px;
+font-size: 16px;
+margin-bottom: 20px;
+
+}
+.view-button{
+background-color: #FFD64E;
+color: #4668EE;
+width: 128px;
+margin-left: 5%;
+padding: 10px;
+font-size: 16px;
+margin-bottom: 20px;
+}
+.details-logo{
+    position: relative;
+    top: 7px;
+}
+.details-para{
+    position: relative;
+    bottom: 7px;
+    margin-left: 240px;
+    font-size: 16px;
+    color: #707070;
+    margin-right: 50px;
+}
+.tick{
+    position: relative;
+    margin-left: 30%;
+}
+.deatils-para2{
+    position: relative;
+margin-left: 32%;
+bottom: 20px;
+}
+.logo-head{
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+

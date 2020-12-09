@@ -1,0 +1,73 @@
+.bg{
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+.content{
+    padding: 30px 20px;
+}
+
+.course-heading{
+    color: #707070;
+    font-size: 18px;
+}
+
+hr{
+    color:#707070 ;
+    size: 1px solid;
+}
+
+.course-section{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: fit-content;
+}
+.course-img{
+    height: 270px;
+}
+
+.course-description-heading{
+    color: #707070;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.course-description-para{
+    font-size: 14px;
+    color:#707070 ;
+    padding-right: 10px;
+}
+
+ngb-rating{
+    color: #FECB51;
+    font-size: 20px;
+
+}
+
+.rating-num{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.join-date{
+    font-size: 14px;
+    color:#707070;
+    padding-left: 30px;
+}
+
+.beginner{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.upgrade-btn{
+    background-color: #28BB54;
+    border-color: #28BB54;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 25px auto;
+    border-radius: 8px;
+}
